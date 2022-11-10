@@ -8,6 +8,7 @@
 ### 1. Download
 Download train, valid, test data to `data` dir.
 ### 2. Preprocess
+`preprocess.py` is hard-coded. Please make sure you've download Kaggle data into `data` dir properly.
 ```bash
 python3.8 preprocess.py
 ```
