@@ -21,9 +21,11 @@ cd ..
 ```
 #### Question Answering
 ```bash
+cd question_answering
 ./run_qa_no_trainer_base.sh # results will be stored in ../qa_base
 ./run_qa_no_trainer_large.sh # results will be stored in ../qa_large
 ./run_qa_no_trainer_scratch.sh # results will be stored in ../qa_scratch
+cd ..
 ```
 ### 4. Inference
 Edit parameters to models/tokenizers you would like to test in `run.sh`.
